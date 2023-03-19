@@ -1,5 +1,7 @@
 var Classes = Object.create(null);
 
+require('../base/lib/connectionDB');
+
 /**
  * Create a new Connection instance.
  * @param {object|string} config Configuration or connection string for new MySQL connection
